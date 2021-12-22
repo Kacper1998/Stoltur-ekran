@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  background-color: #072c46;
+  color: #fffefd;
+  height: 88px;
+}
+@media only screen and (max-width: 600px) {
+  .picture1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  div.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+#sectionmain {
+  background-color: #d4d4d4;
+  height: 1250px;
+}
+
+#logo {
+  
+  margin-left: 350px;
+}
+
+#subject {
+  resize: none;
+  overflow: auto;
+}
+.nav1 {
+  color: white;
+  margin-left: 85px;
+  padding-top: -15px;
+  word-spacing: 5px;
+}
+
+.nav2{
+  margin-right: 230px;
+}
+
+.submenu {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.nav2 {
+  margin-left: 120px;
+  margin-top: -5x;
+}
+
+.submenu1 {
+  font-size: 15px;
+  display: inline-block;
+  margin-top: -10px;
+  text-transform: uppercase;
+} 
+
+
+.submenu1::after {
+  content: "|";
+  margin: 0 10px;
+
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8d8d8d;
+}
+
+.blackline {
+  margin-left: 600px;
+  margin-right: 500px;
+  background-color: black;
+  width: 700px;
+  height: 2px;
+}
+   .picture1 {
+       width: 100%;  
+   }
+   .parent {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-left: 340px;
+     margin-right: 340px;
+   }
+   #parent2 {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-right: 350px;
+     margin-left: 350px;
+   }
+   .figure {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   #loremtext1 {
+       text-align: center;
+       padding-top: 41px;
+   }
+
+   #bold {
+     font-weight: bold;
+     color: #7b7b7b;
+   }
+
+   .bluename {
+     color: #072c46;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 10px;
+   }
+   
+   .picturedescription {
+     color: #8d8d8d;
+   }
+
+   .italic {
+     font-style: oblique;
+     margin-top: -20px;
+   }
+
+   .phoneemail {
+     margin-top: -30px;
+   }
+
+  .child1 {
+    float:left;
+    width:25%;
+  }
+  .floatfix {
+    zoom:1; /* dla IE < 8 */
+  }
+
+  .floatfix:after {
+    content:'';
+    display:block;
+    clear:both;
+  }
+
+  .picturemap {
+      width: 100%;
+      
+  }
+
+  @media only screen and (max-width: 600px) {
+    .picturemap {
+      display: none;
+    }
+  }
+
+  #mainsection2 {
+    height: 850px;
+  }
+  #loremtext2 {
+    text-align: center;
+    padding-top: 104px;
+    
+}
+  .form {
+      text-align: center;
+  }
+
+  .menu  {
+      background-color: #05283e;
+      width: 100%;
+      height: 91px;
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 10px;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 28px;
+    text-transform: uppercase;
+  }
+
+  li::after {
+    margin:0 20px;
+    content: "";
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 85%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .footer {
+    height: 88px;
+
+  }
+
+  .footer > div {
+    margin: 15px;
+    padding: 20px;
+    font-size: 14px;
+
+  }
+  .footer1 {
+    background-color:#042538;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    color: #656f79;
+  } 
+
+  .footer1 > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  .button {
+    background-color: #0b1d2b;
+    border: none;
+    color: white;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    margin-right: 385px;
+    float: right;
+    height: 50px;
+    width: 225px;
+  }
+
+  section {
+    height: 850px;
+    width: 100%;
+    background-color: #d4d4d4;
+  }
+
+  .check {
+    margin-left: 171px;
+  }
+
+  .required {
+    color: red;
+    margin-left: 171px;
+  }
+
+  #text1 {
+    margin: 29px 1302px 24px 218px;
+    float: left;
+  }
+  .footer2 {
+    background-color: #042538;
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #05283e;
+    color: #68717a;
+  }
+
+  #text2 {
+    padding-left: 1173px;
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
+  #underline {
+    text-decoration: underline;
+  }
+
+/*.grid-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row::before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 16,666%;
+  padding: 12px;
+}
+.col-1 {
+  width: 16.66%;
+}
+.col-2 {
+  width: 33.33%;
+}
+.col-3 {
+  width: 50%;
+}
+.col-4 {
+  width: 66.66%;
+}
+.col-5 {
+  width: 83.33%;
+}
+.col-6 {
+  width: 100%;
+}
+@media (max-width: 550px) {
+  [class*='col-'] {
+    float: none;
+    width: 100%;
+  }
+}
+*/
+@media screen and (max-width: 600px) {
+  .parent {
+    flex-direction: column;
+  }
+}
+
+.container {
+  display: block;
+
+  @media screen and {
+    (min-width: 640px) {
+      display:flex;
+    }
+  }
+}

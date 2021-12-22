@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container ">
+        <div><img src="logo.gif" alt="logo" id="logo"></div>
+        <div class="nav1">
+          <ul>
+            <li class="submenu"><a>o firmie</a></li>
+            <li class="submenu"><a>produkty</a></li>
+            <li class="submenu"><a>aktualności</a></li>
+            <li class="submenu"><a>kontakt</a></li>
+          </ul>
+        </div>
+        <div class="nav2">
+          <ul>
+            <li class="submenu1"><a>PL</a></li>
+            <li class="submenu1"><a>EN</a></li>
+            <li class="submenu1"><a>DE</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    <div>
+        <img class="picture1" alt="picture1" src="mainpicture.gif">
+    </div>
+    <section id="sectionmain">
+    <div>
+        <h4 id="loremtext1">LOREM IPSUM DOLOR SIT AMET</h4>
+        <p class="blackline"></p>
+        <br>
+        <div id="info">
+            <div><span id="bold">"STOLTUR"</span> spółka jawna Jan i Marian Miller<br>
+            62-700 Turek,Aleja Jana Pawła ii 6<br>
+            tel: +48 63 280 26 00 fax: + 48 63 280 26 21<br>
+            e-mail : biuro@stoltur.pl
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="parent">
+        <div class="child1">
+          <figure>
+            <img src="picture.gif" alt="picture0">
+            <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+          </figure>
+        </div>
+        <div class="child1">
+          <figure>
+          <img src="picture.gif" alt="picture1">
+          <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+          </figure>
+        </div>
+        <div class="child1">
+          <figure>
+          <img src="picture.gif" alt="picture3">
+          <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+          </figure>
+        </div>
+        <div class="child1">
+          <figure>
+            <img src="picture.gif" alt="picture0">
+            <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+          </figure>
+    </div>
+    </div>
+    <br><br>
+    <div class="parent">
+        <div class="child1">
+          <figure>
+          <img src="picture.gif" alt="picture4">
+          <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+          </figure>
+        </div>
+        <div class="child1">
+          <figure>
+            <img src="picture.gif" alt="picture5">
+            <figcaption class="picturedescription"><div class="bluename">Jakistam Iksiński</div><br><div class="italic">stanowisko</div><br><br><div class="phoneemail">+48 63 280 26 00<br>jan.miller@stoltur.pl</div></figcaption>
+            </figure>
+        </div>
+    </div>
+    </section>
+        <div>
+            <img src="googlemaps.gif" alt="googlemaps" class="picturemap">
+        </div>
+        <section id="mainsection2"> 
+        <h4 id="loremtext2">LOREM IPSUM DOLOR SIT AMET</h4>
+        <p class="blackline"></p>
+        <div class="container">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Twój e-mail</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="">
+                </div>
+                <div class="required"> *Pole wymagane</div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Nazwa firmy</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="cname" name="companyname" placeholder="ShortCake">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Imię i nazwisko</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Treść wiadomości</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                </div>
+                <div class="check">
+                    <label><input type="checkbox">    Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w zgłoszeniu dla potrzeb przedstawienia oferty przez Stoltur spółka
+                     jawna Jan i Miller z siedzibą w Turku ul .Jana Pawła  6 ( zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie danych osobowych Dz.U z 2014 4 .poz 1182, ze zm.)</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        <br>
+        <div>
+            <input type="button" class="button" value="WYŚLIJ">
+        </div>
+        </section>
+        <footer>
+            <div class="menu">
+              <ul>
+                <li><a>o firmie</a></li>
+                <li><a>produkty</a></li>
+                <li><a>aktualności</a></li>
+                <li><a>kontakt</a></li>
+              </ul>
+            </div>
+            </footer>
+            <div class="footer1">
+                <div>"STOLTUR" spółka jawna<br>JAN I MARIAN MILLER</div>
+                <div>Aleja Jana Pawła 2 6<br>62-700 Turek , Polska</div>
+                <div>tel: +48 63 280 26 00<br>fax: +48 63 280 26 21<br>e-mail: biuro@stoltur.pl</div>
+        </div>
+        <footer>
+            <div class="footer2">
+                <div id="text1">&#169; Stoltur</div>
+                <div id="text2">design by <span id="underline">ShortCake Interactive</span></div>
+            </div>
+        </footer>
+</body>
+</html>
